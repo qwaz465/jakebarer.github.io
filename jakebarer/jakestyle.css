@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela', sans-serif;
+}
+body {
+    background: rgb(255,45,247);
+    background: linear-gradient(180deg, rgba(255,45,247,1) 0%, rgba(223,5,94,1) 50%, rgba(242,255,75,1) 100%);
+}
+
+h2 {
+    font-size: 30px;
+    color:white;
+}
+
+h3 {
+    font-size: 25px;
+    color: rgb(216,216,216);
+    margin-top: 30px;
+    margin-bottom: 15px;
+    
+}
+p {
+    position: relative;
+    width: 80%;
+    color: rgb(75,45,45);
+}
+#nav {
+    display: flex;
+    justify-content: center;
+    right: 20px
+}
+
+#nav ul {
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+}
+    
+#nav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#about img {
+    position: absolute;
+    right: 5%;
+    top: 16%;
+    height: 30%;
+    width: auto;
+}
+
+#projects {
+    margin-top: 200px;
+}
+
+#ants {
+    position: relative;
+    left: 56%;
+    width: 30%;
+    height: auto;
+}
+
+#scheme {
+    position: relative;
+    left: 60%;
+    width: 10%;
+    height: auto;
+}
+
+#sab {
+    position: relative;
+    left: 60%
+}
+
+#connect {
+    display: flex;
+    justify-content: center;
+    right: 20px
+}
+
+#connect ul {
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+}
+    
+#connect ul a {
+    color: rgb(9,24,105);
+    text-decoration: none;
+}
