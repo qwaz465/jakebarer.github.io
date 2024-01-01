@@ -21,18 +21,21 @@ p {
   padding: 10px;
 }
 
-ul {
+list {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-ul li {
-  display: inline;
+list ul {
+  display: flex;
+}
+
+list ul li {
   margin-right: 10px;
 }
 
-ul li a {
+list ul li a {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
@@ -58,7 +61,9 @@ ul li a {
   padding: 40px;
 }
 
-#projects img {
+.project-image {
+  width: 415px; /* Adjust the width as needed */
+  height: 251px; /* Adjust the height as needed */
   display: block;
   margin: 20px auto;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -71,14 +76,14 @@ ul li a {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-#connect ul li a {
+#connect list ul li a {
   display: block;
   margin-bottom: 10px;
   color: #333;
   text-decoration: none;
 }
 
-#connect ul li a:hover {
+#connect list ul li a:hover {
   text-decoration: underline;
 }
 
@@ -87,7 +92,7 @@ a {
   color: #FF4081;
 }
 
-#nav ul li a:hover {
+#nav list ul li a:hover {
   color: #FF4081;
 }
 
@@ -99,11 +104,11 @@ a {
   color: #FF4081;
 }
 
-#connect ul li a {
+#connect list ul li a {
   color: #FF4081;
 }
 
-#connect ul li a:hover {
+#connect list ul li a:hover {
   color: #FF4081;
 }
 
