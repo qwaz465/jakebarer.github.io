@@ -1,0 +1,130 @@
+/* Global Styles */
+body {
+  font-family: 'Varela', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+p {
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Navigation */
+#nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+list ul {
+  display: flex;
+}
+
+list ul li {
+  margin-right: 10px;
+}
+
+list ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* About Section */
+#about {
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#about img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects Section */
+#projects {
+  background-color: #f5f5f5;
+  padding: 40px;
+}
+
+.project-image {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#ants, #scheme, #ngord, #maxqdamini, #byow {
+  width: 300px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  margin: 20px auto; /* Center the images horizontally */
+}
+
+#maxqdamini, #byow {
+  width: 600px;
+  height: auto;
+}
+
+/* Connect Section */
+#connect {
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#connect list ul li a {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+#connect list ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Additional Color Styles */
+a {
+  color: #FF4081;
+}
+
+#nav list ul li a:hover {
+  color: #FF4081;
+}
+
+#about h3 {
+  color: #FF4081;
+}
+
+#projects h3 {
+  color: #FF4081;
+}
+
+#connect list ul li a {
+  color: #FF4081;
+}
+
+#connect list ul li a:hover {
+  color: #FF4081;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  #about, #projects, #connect {
+    padding: 20px;
+  }
+}
+
+
