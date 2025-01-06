@@ -6,7 +6,6 @@ body {
   background-color: #f5f5f5;
 }
 
-
 h2, h3 {
   color: #333;
 }
@@ -66,7 +65,7 @@ list ul li a {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-#ants, #scheme, #ngord, #maxqdamini, #byow {
+#ants, #scheme, #ngord, #maxqdamini, #byow, #elo, #pac {
   width: 300px; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
   display: block;
